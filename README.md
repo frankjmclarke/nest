@@ -6,13 +6,13 @@ A time tracking application built with Flutter & Firebase:
 
 This is intended as a **reference app** based on my [Riverpod Architecture](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/).
 
-> **Note**: this project used to be called "Started Architecture for Flutter & Firebase" (based on this [old article](https://codewithandrea.com/videos/starter-architecture-flutter-firebase/)). As of January 2023, it follows my updated [Riverpod Architecture](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/), using the latest packages.
+> **Note**: this project used to be called "Started Architecture for Flutter & Firebase" (based on this [old article](https://codewithandrea.com/videos/starter-firebase/)). As of January 2023, it follows my updated [Riverpod Architecture](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/), using the latest packages.
 
 ## Flutter web preview
 
 A Flutter web preview of the app is available here:
 
-- [Time Tracker | Flutter web demo](https://starter-architecture-flutter.web.app)
+- [Time Tracker | Flutter web demo](https://starter.web.app)
 
 ## Features
 
@@ -92,9 +92,9 @@ For more info, follow this guide:
 If you don't want to use FlutterFire CLI, follow these steps instead:
 
 - Register separate iOS, Android, and web apps in the Firebase project settings.
-- On Android, use `com.example.starter_architecture_flutter_firebase` as the package name.
+- On Android, use `com.fclarke.starter` as the package name.
 - then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_android_app) `google-services.json` into `android/app`.
-- On iOS, use `com.example.starterArchitectureFlutterFirebase` as the bundle ID.
+- On iOS, use `com.fclarke.starter` as the bundle ID.
 - then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_ios_app) `GoogleService-Info.plist` into `iOS/Runner`, and add it to the Runner target in Xcode.
 
 That's it. Have fun!
